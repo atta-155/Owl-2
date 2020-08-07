@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- head -->
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.">
+    <meta name="author" content="David Deutsch">
+    <title>
+      Home | Owl Carousel | 2.3.4
+    </title>
+
+    <!-- <link rel="stylesheet" href="assets/css/docs.theme.min.css"> -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+   <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <!-- jquery -->
+    
+    
+
+    
+  </head>
+  <body>
+
+
+    <!-- body -->
+    <div class="home-demo">
+      <div class="row">
+        <div class="large-12 columns">
+          <h3>Demo</h3>
+          <div class="owl-carousel">
+            <div class="item">
+              <h2>Swipe</h2>
+            </div>
+            <div class="item">
+              <h2>Drag</h2>
+            </div>
+            <div class="item">
+              <h2>Responsive</h2>
+            </div>
+            <div class="item">
+              <h2>CSS3</h2>
+            </div>
+            <div class="item">
+              <h2>Fast</h2>
+            </div>
+            <div class="item">
+              <h2>Easy</h2>
+            </div>
+            <div class="item">
+              <h2>Free</h2>
+            </div>
+            <div class="item">
+              <h2>Upgradable</h2>
+            </div>
+            <div class="item">
+              <h2>Tons of options</h2>
+            </div>
+            <div class="item">
+              <h2>Infinity</h2>
+            </div>
+            <div class="item">
+              <h2>Auto Width</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    </script>
+
+  </body>
+</html>
